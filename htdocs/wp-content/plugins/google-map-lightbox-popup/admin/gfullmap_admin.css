@@ -1,0 +1,176 @@
+/*
+GoogleMap LightBox Popup Admin Style
+*/
+
+#gfullmap_admin {
+	width: 892px; 
+	margin-top: 5px; 
+	float:left; 
+	height:auto; 
+	border: 1px double #DCDCD3; 
+}
+#gfullmap_admin table{
+	width:100%;
+}
+#gfullmap_admin table tr td{
+	padding:10px 0;
+	text-align:center;
+}
+#poststuff .show_con{
+	border-top: 1px solid #D7D7D7;
+    float: left;
+    font-size: 13px;
+    height: auto;
+    margin-bottom: 10px; 
+    padding-bottom: 10px;
+    padding-top: 17px;
+    width: 100%;
+}
+#gfullmap_admin .fwgm_map_name{
+	width:115px;
+	float:left;
+	height:auto;
+	word-wrap: break-word;
+	margin-right:20px;
+	text-align:center;
+}
+#gfullmap_admin .fwgm_id{
+	float: left;
+    margin-left: 51px;
+    width: 80px;
+}
+#gfullmap_admin .fwgm_edit_link{
+	width:124px;
+	float:left;
+	height:auto
+}
+#poststuff .fwgm_shortcode_name{
+	float: left;
+	height: auto;
+	margin-right: 20px;
+	width: 229px;
+	word-wrap: break-word;
+	 text-align: center;
+}
+#gfullmap_admin.postbox div.inside form table tbody tr td{
+	height:Auto;
+	font-weight:bold;
+	font-size:12px;
+	text-align: left;
+}
+#gfullmap_admin.postbox div.inside form table tbody tr td:first-child{
+    font-size: 13px;
+    width: 220px;
+}
+#gfullmap_admin.postbox div.inside form table tbody tr td textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], select{
+	font-weight:normal;
+}
+#gfullmap_admin.postbox h3.hndle{
+    font-size: 15px;
+    font-weight: normal;
+    height: 20px;
+    padding: 10px;
+	background: none repeat scroll 0 0 #eeeeee;
+	margin-bottom: 0;
+}
+.show-message,.gmapfrnt-show-message{ 
+	color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 5px !important;
+    margin-top: 0;
+    width: 864px;
+}
+
+#gfullmap_admin .form_cont {
+	float:left;
+	height:auto;
+	width:100%;
+	background: #f3f3f3;
+}
+
+#gfullmap_admin .form_cont form{ 
+	margin-left: 13px;
+	margin: 0 6px;
+}
+
+#gfullmap_admin .form_cont form table span { 
+	font-size:10px; 
+	color:#B52222;
+}
+
+.g_map_delete_btn {
+	background:#D84949;
+	padding:4px 10px;
+	border-radius:3px;
+	color: #ffffff;
+	border:1px solid #D84949;
+	font-size:12px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.g_map_delete_btn:hover{
+	background:#FDB944;
+	padding:4px 10px;
+	border-radius:3px;
+	color: red;
+	border:1px solid #F9B03F;
+	font-size:12px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+#gfullmap_add_btn{  
+	font-size: 15px;
+    width: 220px;
+}
+
+#gfullmap_admin.postbox  table tbody tr td{ 
+	margin-right:10px; 
+}
+
+#gfullmap_admin .fwgm_edit_link a{ 
+	text-align:center!important;
+}
+
+#gfullmap_admin .fwgm_activate{
+	float: left;
+	height: auto;
+	margin-left: 8px;
+	margin-right: 10px;
+	width: 106px;
+}
+#gfullmap_admin.postbox div.inside form table tbody tr{ 
+	margin-top:10px; 
+}
+#gfullmap_admin .fwgm_delete_link{
+	float: left;
+	height: auto;
+	margin-left: 13px;
+	margin-top: 4px;
+	width: 83px;
+}
+.show-message-edit{
+   background: none repeat scroll 0 0 #125E7C;
+    color: #000000;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 10px 0 !important;
+    width: 726px
+}
+#gfullmap_admin.postbox h3.hndle span span{ 
+	color: #4F5484; 
+	font-style: italic;
+}
+#gfullmap_admin.postbox div.inside form table tbody tr.hide{
+	display:none;
+}
+#adminmenu a[href="admin.php?page=edit-map"]{
+	display:none;
+}
+.gmaplbox_iframe{
+	border:1px solid #dfdfdf;
+	padding:4px;
+	border-radius:2px;
+}

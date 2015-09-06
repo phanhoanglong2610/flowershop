@@ -1,0 +1,57 @@
+/*
+GoogleMap LightBox Popup Front Style
+*/
+
+.createPopup{
+	visibility:hidden; 
+	border:0px;
+	outline-width:0px; 
+	top:50%; 
+	left:50%;  
+	position:fixed; 
+	float:left; 
+	width:0px; 
+	background:url("../images/thelightbox_bg.png"); 
+	height:0px;
+}
+
+a.wpf_ref{ 
+    background: none repeat scroll 0 0 #000000;
+    bottom: 16px;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 9px;
+    font-weight: bold;
+    left: 10px;
+    line-height: 8px;
+    padding: 4px;
+    position: absolute;
+    text-decoration: none;
+
+}
+
+.cf-close{
+    background: url("../images/close.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    margin-right: -29px;
+    margin-top: -32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+	cursor:pointer;
+}
+
+.gmbdm-dialog{
+	position:relative;
+	z-index:999999999;
+	display:none;
+}
+
+.gmbdm-dialog .innerdiv {
+	background:url('../images/progress.gif') no-repeat scroll center #111;
+}
+
+.gmbdm-dialog .innerdiv iframe{
+	display:none;
+}

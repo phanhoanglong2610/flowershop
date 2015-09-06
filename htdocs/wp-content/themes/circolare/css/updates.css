@@ -1,0 +1,6 @@
+/* Version 1.0.1 */
+#container .sf-sub-indicator { background-image: none; }
+#container .products-carousel li { display: inline-block; }
+
+/* Version 1.0.2 */
+.home-content-wrapper .quote { margin-right: 0; }

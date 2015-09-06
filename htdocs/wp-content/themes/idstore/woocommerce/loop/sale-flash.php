@@ -1,0 +1,1 @@
+<?php etheme_wc_product_labels(); ?>

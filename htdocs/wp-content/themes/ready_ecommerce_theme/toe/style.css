@@ -1,0 +1,96 @@
+/*
+Theme Name: Standard
+Theme URI: http://readyshoppingcart.com/
+Author: Ecommerce plugin Creators
+Author URI: http://readyshoppingcart.com/
+Description: This is a default theme to our plugin
+Version: 1.0
+*/
+
+.single-product .product_main {
+    float: left;
+    width: 320px;
+}
+
+.single-product .product_info {
+    width: 525px;
+}
+.product_info {
+    float: right;
+    width: 560px;
+}
+
+#checkPointContainer {    
+    position: relative;
+    color: #999999;   
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+    #checkPointContainer .navBar {
+        background: url(checkpoint-bar.png);
+        width: 480px;
+        padding-top: 11px;
+       
+        position: absolute;
+        top: 6px;
+        left: 50px;
+    }
+.toeCheckoutNavItems {
+    top: 1px;
+    position: relative;
+}
+    
+    .toe_checkout_head_part {
+    cursor: pointer;
+}
+.toe_checkout_part_box {
+    
+    margin-bottom: 20px;
+}
+
+.toeCheckoutNavigationItemPoint {
+    background: url(checkot-point.png);
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.toeCheckoutNavigationItem:first-child .toeCheckoutNavigationItemPoint {
+    background: url(checkot-point-first.png);
+}
+.toeCheckoutNavigationItem:last-child .toeCheckoutNavigationItemPoint {
+    background: url(checkot-point-last.png);
+}
+
+.toeCheckoutNavigationItem {
+    float: left;
+    margin-right: 90px;
+    min-height: 40px;
+    text-align: center;
+}
+.toeCheckoutNavigationSelected {
+    background: url(checkot-point-sel.png);
+    width: 14px;
+    height: 14px;
+    position: absolute;
+}
+
+.toeCheckoutNavigationCurrent, .toeCheckoutNavigationPassed {
+    color: #000000;
+}
+.toeCheckoutNavigationPassed .toeCheckoutNavigationItemPoint .point{    
+    background: url(checkot-point-sel.png) no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 3.5px;
+    left: 5px;
+}
+.toeNavFirst, .toeNavPrev, .toeNavNext, .toeNavLast, .toeNavPageNum {
+	float: left !important;
+	padding-right: 10px;
+	width: auto !important;
+}
